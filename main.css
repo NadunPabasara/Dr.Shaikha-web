@@ -69,3 +69,10 @@ h3 span {
 .testimonial-section {
   background-color: #0045ab;
 }
+
+.Der-image {
+  border-radius: 10px;
+  border-style: solid;
+  border-color: #52a2fd;
+  border-width: 2px;
+}
