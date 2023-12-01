@@ -1,0 +1,71 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.hero-container {
+  position: relative;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: #fff; /* Set your desired background color here */
+  z-index: 1000;
+}
+
+.bookcontainer {
+  background-color: #008ad8;
+  border-radius: 50px;
+  /* height: 90px; */
+  color: #fff;
+}
+.btn {
+  /* background-color: #008ad8; */
+  border-radius: 25px;
+}
+
+.book-container-wrapper {
+  /* position: absolute; */
+  /* top: 0; */
+  /* left: 50%; */
+  transform: translatey(-50%);
+  z-index: 2;
+}
+
+a {
+  color: black; /* Change to your desired color */
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+/* Customize Carousel control button icons */
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #28224d3d; /* Color of the icon */
+}
+
+.little-title {
+  color: #008ad8;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+h3 span {
+  color: #002575;
+  font-weight: 700;
+  font-size: 36px;
+  border-bottom: 2px solid #002575;
+}
+
+.card {
+  border-radius: 30px;
+}
+
+.card-img-top {
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+}
+
+.testimonial-section {
+  background-color: #0045ab;
+}
